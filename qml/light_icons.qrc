@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/light/battery_0_bar.svg</file>
+        <file>icons/light/battery_1_bar.svg</file>
+        <file>icons/light/battery_2_bar.svg</file>
+        <file>icons/light/battery_3_bar.svg</file>
+        <file>icons/light/battery_4_bar.svg</file>
+        <file>icons/light/battery_5_bar.svg</file>
+        <file>icons/light/battery_6_bar.svg</file>
+        <file>icons/light/battery_full.svg</file>
+    </qresource>
+</RCC>

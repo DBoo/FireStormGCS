@@ -7,6 +7,7 @@ int main(int argc, char *argv[])
     QGuiApplication::setApplicationDisplayName("FSGC");
     QCoreApplication::setOrganizationName("boosalis");
     QCoreApplication::setApplicationVersion("1.0");
+
     QQmlApplicationEngine engine;
 
     engine.addImportPath("qrc:/qml");
