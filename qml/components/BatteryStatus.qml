@@ -4,6 +4,7 @@ import QtQuick.Controls.Material
 
 
 Rectangle {
+    id: root
     implicitHeight: 48
     implicitWidth: 78
     radius: 6
@@ -11,6 +12,10 @@ Rectangle {
     border.color: useDarkTheme ? Qt.lighter(Material.background,.75) : Qt.darker(Material.background,.75)
     color: useDarkTheme ? Qt.lighter(Material.background,.25) : Qt.darker(Material.background,.25)
     property bool useDarkTheme: Material.theme === Material.Dark
+    Component.onCompleted: {
+        root.color.a = 0.5
+    }
+
     Image {
         id: battery_icon
         source: useDarkTheme ? "qrc:/icons/light/battery_full.svg" :"qrc:/icons/dark/battery_full.svg"

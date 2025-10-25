@@ -2,5 +2,6 @@
     <qresource prefix="/">
         <file>qml/Main.qml</file>
         <file>qml/components/BatteryStatus.qml</file>
+        <file>qml/components/VehicleStatus.qml</file>
     </qresource>
 </RCC>

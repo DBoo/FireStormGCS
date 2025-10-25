@@ -8,5 +8,6 @@
         <file>icons/dark/battery_5_bar.svg</file>
         <file>icons/dark/battery_6_bar.svg</file>
         <file>icons/dark/battery_full.svg</file>
+        <file>icons/dark/compass.svg</file>
     </qresource>
 </RCC>
